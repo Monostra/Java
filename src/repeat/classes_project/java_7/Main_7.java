@@ -11,6 +11,9 @@ public class Main_7 {
 
         Dog dog = new Dog("msd", 3, "ewr", "dog");
         dog.voice();
+
+        Dog dog1 = new Dog("las", 2, "wer", "dog");
+        dog1.voice();
     }
 
 }

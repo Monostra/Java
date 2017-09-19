@@ -22,4 +22,11 @@ public class Pet extends Animal{
     public void voice() {
         System.out.println("pet voice");
     }
+
+    @Override
+    public String toString() {
+        return "Pet{" +
+                "nick='" + nick + '\'' +
+                '}';
+    }
 }
