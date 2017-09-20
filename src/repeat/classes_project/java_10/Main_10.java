@@ -8,14 +8,14 @@ public class Main_10 {
         System.out.println("main static block");
     }
 
-    {
+    static {
         System.out.println("main simble block");
     }
 
     public static void main(String[] args) {
         System.out.println("main method");
         Main_10 main10 = new Main_10();
-        Person person = new Person("vova", 23);
+        Person person = new Person("vova","vov", 23);
     }
 
     static {

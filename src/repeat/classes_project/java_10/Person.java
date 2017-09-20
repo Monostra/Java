@@ -14,10 +14,12 @@ public class Person {
     }
 
     private String name;
+    private String nic;
     private int age;
 
-    public Person(String name, int age) {
+    public Person(String name, String nic, int age) {
         this.name = name;
+        this.nic = nic;
         this.age = age;
     }
 
@@ -37,10 +39,19 @@ public class Person {
         this.age = age;
     }
 
+    public String getNic() {
+        return nic;
+    }
+
+    public void setNic(String nic) {
+        this.nic = nic;
+    }
+
     @Override
     public String toString() {
         return "Person{" +
                 "name='" + name + '\'' +
+                ", nic='" + nic + '\'' +
                 ", age=" + age +
                 '}';
     }
