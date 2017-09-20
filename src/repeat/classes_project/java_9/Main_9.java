@@ -5,6 +5,15 @@ package repeat.classes_project.java_9;
  */
 public class Main_9 {
     public static void main(String[] args) {
+        SportCar sportCar = new SportCar();
+
+        sportCar.drive();
+        sportCar.setNitro(true);
+        sportCar.setAge(5);
+        sportCar.setBrand("mers");
+        sportCar.setColor("black");
+
+        System.out.println(sportCar.toString());
 
     }
 }
