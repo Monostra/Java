@@ -1,4 +1,4 @@
-package repeat.classes_project.java_1;
+package repeat.classes_project.java_01;
 
 /**
  * Created by Mykhailo on 18/09/2017.
