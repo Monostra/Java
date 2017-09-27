@@ -68,6 +68,18 @@ public class Java_6_SoftServe {
 //}
 //
 //
+//public class Java_6_SoftServe {
+//    public static void main(String[] args) {
+//        boolean a=true, b = false, c = true;
+////        if ((a && b)||(a&&c)|| (b&&c)) {
+////            System.out.println("true");
+////        }
+//        if ((a || !b )&&(a || !c)&& (b || !c)) {
+//            System.out.println("true");
+//        }
+//    }
+//}
+////
 //
 //
 //Public Class Java_6_SoftServe {
@@ -77,7 +89,12 @@ public class Java_6_SoftServe {
 //    } // 0    // 3 errors
 //}
 //
-//
+//Public Class Java_6_SoftServe{
+//    Public Static Void Main(String[]Args){
+//        L
+//    }
+//}
+
 //
 //
 //public class Java_6_SoftServe {
