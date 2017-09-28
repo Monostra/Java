@@ -198,7 +198,7 @@ public class Java_6_SoftServe {
 //    private int id;
 //    private String name;
 //
-//    public A(int id, String name) {
+//    private A(int id, String name) {
 //        this.id = id;
 //        this.name = name;
 //    }
